@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirstjavafx.PictureController">
+    <children>
+        <AnchorPane layoutX="-3.0" layoutY="97.0" prefHeight="303.0" prefWidth="706.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="234.0" layoutY="21.0" prefHeight="41.0" prefWidth="239.0" text="Привет мир" textFill="#5e5050">
+                    <font>
+                        <Font name="Georgia Italic" size="36.0" />
+                    </font>
+                </Label>
+            <ImageView fx:id="pictureID" fitHeight="109.0" fitWidth="150.0" layoutX="284.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/1679578_cabin_cloud_house_property_snow_icon.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="200.0" layoutY="18.0" text="Feliks App" textFill="#ebe8e8">
+            <font>
+                <Font name="Georgia Italic" size="64.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
